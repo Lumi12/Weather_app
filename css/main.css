@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #dadada;
+  opacity: 60%;
+}
+
+header ul li a {
+  font-family: 'Dancing Script', cursive;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+.all {
+  margin: 50px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 500px;
+}
+
+.all h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+.all h2 {
+  margin-top: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: 'Dancing Script', cursive;
+  color: red;
+}
+
+.all .info {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.all .info h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.all .info h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.all .info .basic {
+  font-family: 'Dancing Script', cursive;
+}
+
+.all .info .city {
+  margin-top: 20px;
+}
+
+.all .others {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 120px;
+}
+
+.all .others h2 {
+  font-size: 30px;
+}
+
+.all .others h3 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.all .others .temperature {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5%;
+}
+
+.all .others .clouds {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border: 1px solid black;
+  background-color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5%;
+}
+
+.all .others .clouds .weather {
+  margin-bottom: 60px;
+}
+
+.all .others .wind {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-right: 30px;
+  background-color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 5%;
+}
+
+.all .others .wind .degree {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
